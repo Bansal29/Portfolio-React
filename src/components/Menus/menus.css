@@ -1,0 +1,46 @@
+.navbar-profile-pic img {
+  border-radius: 90px;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-bottom: 2px solid aqua;
+  box-shadow: 5px 2px 2px aqua;
+}
+.nav-item {
+  color: aqua;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+.nav-link {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.open:hover {
+  border-right: 5px solid aqua;
+  font-size: larger;
+}
+.close:hover {
+  transform: scale(2);
+}
+.nav-link svg {
+  margin-right: 10px;
+}
+.profile-name {
+  font-weight: bold;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+}
+.nav-link .active {
+  border-left: 5px solid aqua;
+  padding-left: 10px;
+  font-size: larger;
+  text-decoration: none;
+  color: aqua;
+}
