@@ -21,7 +21,7 @@ const Project = () => {
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj65SmyEwOC5-lxkYu2wQbtbMFtQ5QDkXqBw&s"
+                    src="https://cdn3.f-cdn.com//files/download/208880592/Screenshot%20%2810%29.png?width=780&height=373&fit=crop"
                     alt="project-1"
                   />
                 </div>
@@ -33,7 +33,9 @@ const Project = () => {
                 </div>
                 <div className="card-body">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">i-Notebook</h5>
+                    <h5 className="text-uppercase">
+                      i-Notebook- A notes management application
+                    </h5>
                   </div>
                   <div className="ad-btn">
                     <a
@@ -59,10 +61,7 @@ const Project = () => {
               <div className="card rounded project-card">
                 <div className="card-image">
                   <span className="card-notify-badge">Frontend</span>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj65SmyEwOC5-lxkYu2wQbtbMFtQ5QDkXqBw&s"
-                    alt="project-1"
-                  />
+                  <img src="newsverse.png" alt="project-1" />
                 </div>
                 <div className="card-image-overlay m-auto mt-3">
                   <span className="card-detail-badge">ReactJs</span>
@@ -71,7 +70,9 @@ const Project = () => {
                 </div>
                 <div className="card-body">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">NewsVerse</h5>
+                    <h5 className="text-uppercase">
+                      NewsVerse - A news rendering application
+                    </h5>
                   </div>
                   <div className="ad-btn">
                     <a
@@ -94,10 +95,7 @@ const Project = () => {
               <div className="card rounded project-card">
                 <div className="card-image">
                   <span className="card-notify-badge">Full stack</span>
-                  <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj65SmyEwOC5-lxkYu2wQbtbMFtQ5QDkXqBw&s"
-                    alt="project-1"
-                  />
+                  <img src="burger.jpg" alt="project-1" />
                 </div>
                 <div className="card-image-overlay m-auto mt-3">
                   <span className="card-detail-badge">Node</span>
@@ -107,7 +105,9 @@ const Project = () => {
                 </div>
                 <div className="card-body">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">ZwiGato</h5>
+                    <h5 className="text-uppercase">
+                      ZwiGato - A food ordering application
+                    </h5>
                   </div>
                   <div className="ad-btn">
                     <a
@@ -135,7 +135,7 @@ const Project = () => {
                     Natural Language Processing
                   </span>
                   <img
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj65SmyEwOC5-lxkYu2wQbtbMFtQ5QDkXqBw&s"
+                    src="https://monkeylearn.com/static/e51ae54d394f4fe2ebe6fe79b34662c4/12fd3/normal.png"
                     alt="project-1"
                   />
                 </div>
