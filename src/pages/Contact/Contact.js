@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { toast } from "react-toastify";
+// import { ToastContainer, toast } from "react-toastify/dist/react-toastify.cjs";
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 import "./Contact.css";
 
@@ -12,7 +12,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!name || !email || !msg) {
-      toast.error("Please provide all fields");
+      // toast.error("Please provide all fields");
+      alert("Please provide all fields");
       return;
     }
 
@@ -33,14 +34,16 @@ const Contact = () => {
       .send(serviceId, templateId, templateParams, userId)
       .then((response) => {
         console.log("Email sent:", response);
-        toast.success("Your message has been sent successfully!");
+        // toast.success("Your message has been sent successfully!");
+        alert("Your message has been sent successfully!");
         setName("");
         setEmail("");
         setMsg("");
       })
       .catch((error) => {
         console.error("Email send error:", error);
-        toast.error("Failed to send message. Please try again later.");
+        // toast.error("Failed to send message. Please try again later.");
+        alert("Failed to send message. Please try again later.");
       });
   };
 
