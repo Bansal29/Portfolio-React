@@ -68,9 +68,22 @@ const Contact = () => {
                 <div className="row">
                   <h6 className="social">
                     Contact With
-                    <BsLinkedin color="blue" size={30} className="ms-2" />
-                    <BsGithub color="black" size={30} className="ms-2" />
-                    <BsFacebook color="blue" size={30} className="ms-2" />
+                    <a
+                      href="https://www.linkedin.com/in/aryan-bansal-425901235/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ms-2"
+                    >
+                      <BsLinkedin color="blue" size={30} />
+                    </a>
+                    <a
+                      href="https://github.com/Bansal29"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ms-2"
+                    >
+                      <BsGithub color="black" size={30} />
+                    </a>
                   </h6>
                 </div>
 

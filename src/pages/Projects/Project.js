@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 import Zoom from "react-reveal/Zoom";
+import { BsGithub } from "react-icons/bs";
 
 const Project = () => {
   return (
@@ -42,7 +43,7 @@ const Project = () => {
                       className="btn btn-primary"
                       href="https://github.com/Bansal29/iNotebook-MERN.git"
                     >
-                      View Code
+                      VIEW CODE
                     </a>
                     <a
                       className="btn btn-primary"
@@ -221,7 +222,7 @@ const Project = () => {
                   </div>
                   <div className="ad-btn">
                     <a className="btn btn-primary" href="#">
-                      View Code
+                      view code
                     </a>
                     <a className="btn btn-primary" href="#">
                       view Live
