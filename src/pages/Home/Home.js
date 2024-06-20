@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTheme } from "../../context/ThemeContext";
 import "./home.css";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
 import { FaDownload } from "react-icons/fa";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";

@@ -43,3 +43,65 @@
     width: 280px;
   }
 }
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-up {
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes highlightAnimation {
+  0%,
+  100% {
+    background-color: inherit;
+  }
+  50% {
+    background-color: aqua;
+  }
+}
+
+.highlight {
+  animation: highlightAnimation 3s linear infinite;
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Adjust the floating distance as needed */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.float-up {
+  animation: floatAnimation 3s ease-in-out infinite; /* Adjust animation duration and timing as needed */
+}
+
+@keyframes highlightAnimation {
+  0%,
+  100% {
+    background-color: inherit; /* Ensure the background resets to original */
+    transform: scale(1); /* Initial scale */
+    box-shadow: none; /* No shadow */
+  }
+  50% {
+    background-color: aqua; /* Change background to aqua color */
+    transform: scale(1.1); /* Scale up */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Box shadow */
+  }
+}
+
+.highlight {
+  animation: highlightAnimation 2s linear infinite; /* Adjust animation duration and timing as needed */
+}

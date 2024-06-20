@@ -1,6 +1,5 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { FaNodeJs, FaJava, FaPython, FaAws } from "react-icons/fa";
-import { AiOutlineOpenAI } from "react-icons/ai";
 import { TbBrandCpp } from "react-icons/tb";
 import {
   SiJavascript,
@@ -109,7 +108,7 @@ export const TechstackList = [
   {
     _id: 19,
     name: "Prompt engineering",
-    icon: AiOutlineOpenAI,
+    icon: SiPostman,
   },
   {
     _id: 20,

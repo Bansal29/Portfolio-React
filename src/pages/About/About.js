@@ -41,13 +41,12 @@
 // export default About;
 import React from "react";
 import "./About.css";
-import Jump from "react-reveal/Jump";
-import Zoom from "react-reveal/Zoom";
+import { Zoom } from "react-awesome-reveal";
 
 const About = () => {
   return (
     <div>
-      <Jump>
+      <Zoom>
         <div className="about" id="about">
           <div className="row">
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
@@ -78,7 +77,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </Jump>
+      </Zoom>
     </div>
   );
 };

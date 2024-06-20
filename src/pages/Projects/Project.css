@@ -58,7 +58,7 @@
   justify-content: space-evenly;
   text-transform: uppercase;
 }
-/* =============================== */
+
 @media (max-width: 600px) {
   .project {
     margin: 0;

@@ -1,11 +1,11 @@
 import React from "react";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
 import "./Footer.css";
-import Tada from "react-reveal/Tada";
+import { tada } from "react-awesome-reveal";
 const Footer = () => {
   return (
     <footer className="footer">
-      <Tada>
+      <tada>
         <div className="footer-content">
           <h4>Portfolio made by Aryan Bansal &copy; 2024</h4>
           <ul className="footer-icons">
@@ -26,7 +26,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </Tada>
+      </tada>
     </footer>
   );
 };
