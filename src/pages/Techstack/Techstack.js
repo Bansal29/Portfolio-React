@@ -61,7 +61,7 @@ const Techstack = () => {
         <hr />
         <p className="pb-3 text-center">
           💻Including programming languages, frameworks, databases, front-end &
-          back-end tools, and APIs 💻
+          back-end tools,APIs & the technologies i am familier with! 💻
         </p>
         <div className="row">
           {TechstackList.map((tech, index) => (
