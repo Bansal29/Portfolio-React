@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 // import { ToastContainer, toast } from "react-toastify/dist/react-toastify.cjs";
-import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import "./Contact.css";
 
 const Contact = () => {
