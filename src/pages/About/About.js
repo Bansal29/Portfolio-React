@@ -27,7 +27,11 @@ const About = () => {
             </div>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <Zoom>
-                <img src="profile.png" alt="profile_pic" title="Aryan Bansal" />
+                <img
+                  src="Portfolio-React/profile.png"
+                  alt="profile_pic"
+                  title="Aryan Bansal"
+                />
               </Zoom>
             </div>
           </div>

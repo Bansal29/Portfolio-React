@@ -19,7 +19,7 @@ const Menus = ({ toggle }) => {
         <div>
           <Zoom>
             <div className="navbar-profile-pic">
-              <img src="self_image.png" alt="" />
+              <img src="Portfolio-React/self_image.png" alt="" />
             </div>
           </Zoom>
           <div className="profile-name">Aryan</div>

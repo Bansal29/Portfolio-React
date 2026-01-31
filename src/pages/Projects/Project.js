@@ -62,7 +62,7 @@ const Project = () => {
             <div className="card rounded project-card">
               <div className="card-image">
                 <span className="card-notify-badge">Frontend</span>
-                <img src="newsverse.png" alt="project-1" />
+                <img src="Portfolio-React/newsverse.png" alt="project-1" />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">ReactJs</span>
@@ -96,7 +96,7 @@ const Project = () => {
             <div className="card rounded project-card">
               <div className="card-image">
                 <span className="card-notify-badge">Full stack</span>
-                <img src="burger.jpg" alt="project-1" />
+                <img src="Portfolio-React/burger.jpg" alt="project-1" />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">Node</span>
@@ -134,10 +134,7 @@ const Project = () => {
                 <span className="card-notify-badge">
                   Natural Language Processing
                 </span>
-                <img
-                  src="https://monkeylearn.com/static/e51ae54d394f4fe2ebe6fe79b34662c4/12fd3/normal.png"
-                  alt="project-1"
-                />
+                <img src="Portfolio-React/web.jpg" alt="project-1" />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">Python</span>
@@ -173,7 +170,7 @@ const Project = () => {
             <div className="card rounded project-card">
               <div className="card-image">
                 <span className="card-notify-badge">Frontend</span>
-                <img src="konnect-land.png" alt="project-1" />
+                <img src="Portfolio-React/konnect-land.png" alt="project-1" />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">ReactJS</span>
@@ -207,7 +204,10 @@ const Project = () => {
             <div className="card rounded project-card">
               <div className="card-image">
                 <span className="card-notify-badge">Frontend</span>
-                <img src="portfolio-thumbnail.png" alt="project-1" />
+                <img
+                  src="Portfolio-React/portfolio-thumbnail.png"
+                  alt="project-1"
+                />
               </div>
               <div className="card-image-overlay m-auto mt-3">
                 <span className="card-detail-badge">ReactJS</span>
